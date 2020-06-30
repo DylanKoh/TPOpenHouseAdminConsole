@@ -26,7 +26,9 @@ namespace TPOpenHouseAdminConsole
 
         private void btnAddEvent_Click(object sender, EventArgs e)
         {
-            
+            this.Hide();
+            (new EventDetails(0)).ShowDialog();
+            this.Close();
         }
 
         private void btnViewEvents_Click(object sender, EventArgs e)

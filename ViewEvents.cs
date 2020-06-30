@@ -44,5 +44,20 @@ namespace TPOpenHouseAdminConsole
             (new MainMenu()).ShowDialog();
             this.Close();
         }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.CurrentRow == null)
+            {
+                MessageBox.Show("Please select an event to edit!", "Edit Event", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                var getEventID = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
+                this.Hide();
+                (new EventDetails(getEventID)).ShowDialog();
+                this.Close();
+            }
+        }
     }
 }

@@ -62,6 +62,7 @@
             this.btnEdit.TabIndex = 1;
             this.btnEdit.Text = "Edit Event";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // EventID
             // 
