@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="63b30387fcdb4e438f6e2847ac8f81ea" Name="Diagram1">
+        <EntityTypeShape EntityType="TPOpenHouseModel.Event" Width="1.5" PointX="5.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="TPOpenHouseModel.Question" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TPOpenHouseModel.sysdiagram" Width="1.5" PointX="2.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="TPOpenHouseModel.UserResponse" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TPOpenHouseModel.User" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <AssociationConnector Association="TPOpenHouseModel.FK_UserResponse_Questions" ManuallyRouted="false" />
+        <AssociationConnector Association="TPOpenHouseModel.FK_UserResponse_Users" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="TPOpenHouseModel.Reward" Width="1.5" PointX="0.75" PointY="1.125" />
+        <EntityTypeShape EntityType="TPOpenHouseModel.UserClaim" Width="1.5" PointX="3" PointY="3.875" />
+        <AssociationConnector Association="TPOpenHouseModel.FK_UserClaim_Rewards" />
+        <AssociationConnector Association="TPOpenHouseModel.FK_UserClaim_Users" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
