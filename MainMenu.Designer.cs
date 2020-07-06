@@ -31,6 +31,7 @@
             this.btnAddEvent = new System.Windows.Forms.Button();
             this.btnAddRewards = new System.Windows.Forms.Button();
             this.btnViewEvents = new System.Windows.Forms.Button();
+            this.btnApporve = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnAddEvent
@@ -63,15 +64,26 @@
             this.btnViewEvents.UseVisualStyleBackColor = true;
             this.btnViewEvents.Click += new System.EventHandler(this.btnViewEvents_Click);
             // 
-            // Form1
+            // btnApporve
+            // 
+            this.btnApporve.Location = new System.Drawing.Point(290, 339);
+            this.btnApporve.Name = "btnApporve";
+            this.btnApporve.Size = new System.Drawing.Size(154, 42);
+            this.btnApporve.TabIndex = 3;
+            this.btnApporve.Text = "Approve Rewards";
+            this.btnApporve.UseVisualStyleBackColor = true;
+            this.btnApporve.Click += new System.EventHandler(this.btnApporve_Click);
+            // 
+            // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnApporve);
             this.Controls.Add(this.btnViewEvents);
             this.Controls.Add(this.btnAddRewards);
             this.Controls.Add(this.btnAddEvent);
-            this.Name = "Form1";
+            this.Name = "MainMenu";
             this.Text = "Main Menu";
             this.ResumeLayout(false);
 
@@ -82,6 +94,7 @@
         private System.Windows.Forms.Button btnAddEvent;
         private System.Windows.Forms.Button btnAddRewards;
         private System.Windows.Forms.Button btnViewEvents;
+        private System.Windows.Forms.Button btnApporve;
     }
 }
 

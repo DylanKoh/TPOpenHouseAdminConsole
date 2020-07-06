@@ -61,6 +61,12 @@
     <Compile Include="AddRewards.Designer.cs">
       <DependentUpon>AddRewards.cs</DependentUpon>
     </Compile>
+    <Compile Include="ApproveReward.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApproveReward.Designer.cs">
+      <DependentUpon>ApproveReward.cs</DependentUpon>
+    </Compile>
     <Compile Include="Event.cs">
       <DependentUpon>TPOpenHouseModel.tt</DependentUpon>
     </Compile>
@@ -125,6 +131,9 @@
     </Compile>
     <EmbeddedResource Include="AddRewards.resx">
       <DependentUpon>AddRewards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApproveReward.resx">
+      <DependentUpon>ApproveReward.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EventDetails.resx">
       <DependentUpon>EventDetails.cs</DependentUpon>

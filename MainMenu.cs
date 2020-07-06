@@ -37,5 +37,12 @@ namespace TPOpenHouseAdminConsole
             (new ViewEvents()).ShowDialog();
             this.Close();
         }
+
+        private void btnApporve_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            (new ApproveReward()).ShowDialog();
+            this.Close();
+        }
     }
 }
