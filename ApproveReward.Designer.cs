@@ -52,7 +52,7 @@
             // 
             // btnApprove
             // 
-            this.btnApprove.Location = new System.Drawing.Point(713, 150);
+            this.btnApprove.Location = new System.Drawing.Point(462, 67);
             this.btnApprove.Name = "btnApprove";
             this.btnApprove.Size = new System.Drawing.Size(75, 23);
             this.btnApprove.TabIndex = 2;
@@ -62,7 +62,7 @@
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(12, 150);
+            this.btnBack.Location = new System.Drawing.Point(12, 67);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(75, 23);
             this.btnBack.TabIndex = 3;
@@ -74,7 +74,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 185);
+            this.ClientSize = new System.Drawing.Size(548, 112);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnApprove);
             this.Controls.Add(this.txtRewardID);
